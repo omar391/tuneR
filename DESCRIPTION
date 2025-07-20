@@ -1,0 +1,29 @@
+Package: tuneR
+Type: Package
+Title: Enhanced Model Tuning for mixOmics
+Version: 0.1.0
+Authors@R: 
+    person("Omar", "LastName", , "email@example.com", role = c("aut", "cre"))
+Description: Enhances the model tuning capabilities of mixOmics by providing 
+    more advanced, flexible, and user-friendly tools for hyperparameter 
+    optimization. Includes support for random search, Q2 score calculation,
+    and comprehensive visualization of tuning results.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    mixOmics,
+    stats,
+    utils
+Suggests:
+    ggplot2,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/username/tuneR
+BugReports: https://github.com/username/tuneR/issues

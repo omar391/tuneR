@@ -111,7 +111,8 @@ Each task in `./.task/todo/current.md` follows this format:
 - Run linters and ONLY relevant unit tests after task completion
 - Mark 100% complete only when lint and unit tests pass
 - Update `./.task/todo/current.md` and move completed tasks to `./.task/todo/done_<today-date>.md`
-- Create git commit with task ID reference and details
+- **DO NOT auto-commit**: Instead, prepare commit message and let user review before committing
+- **Commit messages should NOT contain task IDs**: Use descriptive conventional commit format (feat:, fix:, docs:, etc.)
 - Subtasks follow same format and link to parent task
 
 ### Final Project Completion
@@ -204,7 +205,8 @@ Each task in `./.task/todo/current.md` follows this format:
 - Run linters and relevant unit tests
 - Update task status only when all checks pass
 - Update project documentation with technical details
-- Create git commit with task reference
+- **Prepare commit message without auto-committing**: Provide descriptive conventional commit format
+- **Exclude task IDs from commit messages**: Focus on what was accomplished, not internal task tracking
 - Move completed task to done file
 
 ### Rules Evolution

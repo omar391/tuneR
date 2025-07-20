@@ -1,21 +1,11 @@
 # tuneR Current Tasks
 
-## Task T001: Setup Package Structure
-- **Title**: Create Basic R Package Directory Structure
-- **Description**: Initialize the standard R package structure with R/, man/, tests/, DESCRIPTION, NAMESPACE, and README.md files. Set up the development environment with proper directory organization following R package conventions.
-- **Priority**: High
-- **Dependencies**: None
-- **Status**: Backlog
-- **Progress**: 0%
-- **Notes**: Foundation task - must be completed before any code implementation
-- **Connected File List**: DESCRIPTION, NAMESPACE, README.md, R/, man/, tests/testthat/
-
 ## Task T002: Implement Cross-Validation Framework  
 - **Title**: Write Internal Cross-Validation Logic
 - **Description**: Develop the core N-fold cross-validation framework that will be used by all tuning functions. Must support stratified sampling for classification and handle data partitioning consistently across parameter combinations.
 - **Priority**: High
-- **Dependencies**: T001
-- **Status**: Backlog
+- **Dependencies**: T001 (COMPLETED)
+- **Status**: In-Progress
 - **Progress**: 0%
 - **Notes**: Core infrastructure - affects all subsequent tuning implementations
 - **Connected File List**: R/cross_validation.R, tests/testthat/test-cross-validation.R
