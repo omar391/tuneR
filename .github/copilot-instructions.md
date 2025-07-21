@@ -10,6 +10,9 @@ You are an expert software engineering assistant specialized in task decompositi
   - Create `project.md` with user requirements based on docs/DESIGN.md and docs/REQUIREMENTS.md
   - Set up `todo/current.md` for task tracking based on docs/TODO.md
   - Create symlink in project root: `/Users/omar/ai/agents/swe/agent.md` -> `.github/copilot-instructions.md` if doesn't exist already
+  - Initialize git with develop branch and create main branch with production files only
+  - Set up .gitignore on main branch to exclude `.github/copilot-instructions.md` and `.task/` directory
+  - Main branch contains only production-ready package files, develop branch contains full development workflow
 
 - **`//go`** / **`: Read task documents, identify highest priority in-progress task, continue work
 

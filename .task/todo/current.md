@@ -1,21 +1,11 @@
 # tuneR Current Tasks
 
-## Task T002: Implement Cross-Validation Framework  
-- **Title**: Write Internal Cross-Validation Logic
-- **Description**: Develop the core N-fold cross-validation framework that will be used by all tuning functions. Must support stratified sampling for classification and handle data partitioning consistently across parameter combinations.
-- **Priority**: High
-- **Dependencies**: T001 (COMPLETED)
-- **Status**: In-Progress
-- **Progress**: 0%
-- **Notes**: Core infrastructure - affects all subsequent tuning implementations
-- **Connected File List**: R/cross_validation.R, tests/testthat/test-cross-validation.R
-
 ## Task T003: Implement tune_block_splsda()
 - **Title**: Core Block SPLS/SPLSDA Tuning Function
 - **Description**: Write the main internal function for tuning block.spls and block.splsda models using grid search. Must integrate with cross-validation framework and calculate performance metrics including error rates and Q2 scores.
 - **Priority**: High  
-- **Dependencies**: T002
-- **Status**: Backlog
+- **Dependencies**: T002 (COMPLETED)
+- **Status**: In-Progress
 - **Progress**: 0%
 - **Notes**: Primary deliverable for MVP - most complex implementation task
 - **Connected File List**: R/tune_block_splsda.R, tests/testthat/test-tune-block-splsda.R
