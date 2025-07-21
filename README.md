@@ -1,8 +1,7 @@
-# tuneR <img src="man/figures/logo.png" align="right" height="139" alt="tuneR logo" />
+# tuneR <img src="man/figures/logo.png" align="right" height="60" alt="tuneR logo" />
 
 > **Enhanced Hyperparameter Tuning for mixOmics Multi-Omics Analysis**
 
-[![R-CMD-check](https://github.com/omar391/tuneR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/omar391/tuneR/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/omar391/tuneR/branch/main/graph/badge.svg)](https://codecov.io/gh/omar391/tuneR?branch=main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R version](https://img.shields.io/badge/R-%E2%89%A5%204.0.0-blue)](https://www.r-project.org/)
