@@ -24,6 +24,7 @@
 #' }
 #'
 #' @importFrom mixOmics block.spls block.splsda
+#' @importFrom stats predict sd var
 #' @keywords internal
 tune_block_splsda <- function(X, Y, ncomp, test.keepX, 
                               search_type = "grid", n_random = 50,

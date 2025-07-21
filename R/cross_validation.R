@@ -16,6 +16,7 @@
 #' @return List of numeric vectors, each containing indices for a fold
 #'
 #' @examples
+#' \dontrun{
 #' # Classification with stratified sampling
 #' Y <- factor(rep(c("A", "B"), each = 10))
 #' folds <- create_cv_folds(Y, nfolds = 5, stratified = TRUE)
@@ -23,6 +24,7 @@
 #' # Regression without stratification
 #' Y <- rnorm(20)
 #' folds <- create_cv_folds(Y, nfolds = 4, stratified = FALSE)
+#' }
 #'
 #' @keywords internal
 create_cv_folds <- function(Y, nfolds = 5, stratified = TRUE) {
