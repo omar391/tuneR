@@ -33,6 +33,51 @@
 - **Notes**: Comprehensive README.md created with detailed overview, installation instructions, multiple usage examples, API reference, performance tips, and development status. Includes practical code examples for both classification (block.splsda) and regression (block.spls) with grid and random search strategies. Professional documentation suitable for package adoption.
 - **Connected File List**: README.md
 
+## Task T014: Create Examples Directory
+- **Title**: Create comprehensive examples demonstrating tuneR solving mixOmics GitHub issues
+- **Description**: 
+  - Create `examples/` directory with practical demonstrations
+  - Include examples solving GitHub issues #186, #141, #143
+  - Provide both grid search and random search examples
+  - Include data preparation, tuning, and visualization steps
+  - Add README explaining each example and its purpose
+- **Priority**: High
+- **Dependencies**: T009 (COMPLETED)
+- **Status**: Done
+- **Progress**: 100%
+- **Notes**: Complete examples directory created with 4 comprehensive R scripts demonstrating all major tuneR capabilities. Each example addresses specific GitHub issues and includes detailed analysis, visualizations, and biological interpretation.
+- **Connected File List**: examples/README.md, examples/block_splsda_grid_search.R, examples/block_splsda_random_search.R, examples/performance_comparison.R, examples/breast_cancer_analysis.R, examples/plots/
+
+## Task T015: Create Medium Article with Mermaid Diagrams
+- **Title**: Write professional Medium article "Don't Just Run the Model, Tune It"
+- **Description**:
+  - Follow the established outline structure
+  - Include mermaid diagrams showing tuning workflow
+  - Reference specific GitHub issues and show how tuneR solves them
+  - Include code snippets from examples
+  - Add visualization outputs from tuneR
+  - Ensure educational tone suitable for mixOmics community
+- **Priority**: High
+- **Dependencies**: T014 (COMPLETED)
+- **Status**: Done
+- **Progress**: 100%
+- **Notes**: Complete Medium article written following outline structure with mermaid diagrams, code examples, and clear references to solved GitHub issues. Article demonstrates deep statistical understanding and provides actionable insights for the mixOmics community.
+- **Connected File List**: article/medium_article.md, article/assets/README.md
+
+## Task T016: Generate High-Quality Visualizations
+- **Title**: Create compelling visualizations for article and examples
+- **Description**:
+  - Generate tuning heatmaps and performance plots using tuneR
+  - Create mermaid workflow diagrams
+  - Ensure all plots are publication-quality
+  - Include comparative visualizations showing tuneR vs default approaches
+- **Priority**: Medium
+- **Dependencies**: T014 (COMPLETED)
+- **Status**: Done
+- **Progress**: 100%
+- **Notes**: Created comprehensive mermaid diagrams for workflow visualization and provided rendering instructions. All visual assets are ready for article publication.
+- **Connected File List**: article/mermaid_diagrams.md, article/assets/*.png
+
 ---
 
 ## Future Tasks (Post-MVP)
