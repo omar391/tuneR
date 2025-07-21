@@ -2,9 +2,10 @@
 # 
 # This example demonstrates efficient parameter tuning using random search.
 # It addresses GitHub Issue #141: "More efficient parameter exploration"
+# (https://github.com/mixOmicsTeam/mixOmics/issues/141)
 # and shows when random search outperforms grid search.
 # 
-# Author: tuneR package
+# Author: M Omar Faruque
 # Date: 2025-01-21
 
 # Load required libraries
@@ -106,6 +107,7 @@ cat("      Random search allows us to explore this space efficiently.\n")
 
 cat("\n3. Running random search tuning...\n")
 cat("   This demonstrates the efficient exploration that addresses GitHub issue #141\n")
+cat("   (https://github.com/mixOmicsTeam/mixOmics/issues/141)\n")
 
 # Choose a reasonable number of random samples (much less than total combinations)
 n_random_samples <- 50
@@ -360,7 +362,8 @@ cat("\n" %+% paste(rep("=", 80), collapse = "") %+% "\n")
 cat("CONCLUSION: Random Search Success!\n") 
 cat(paste(rep("=", 80), collapse = "") %+% "\n")
 
-cat("\nThis example demonstrated how tuneR addresses GitHub Issue #141 by providing:\n\n")
+cat("\nThis example demonstrated how tuneR addresses GitHub Issue #141 by providing:\n")
+cat("(https://github.com/mixOmicsTeam/mixOmics/issues/141)\n\n")
 
 cat("🚀 COMPUTATIONAL EFFICIENCY: %.1fx faster than exhaustive grid search\n" %+% efficiency_ratio)
 cat("🎯 EFFECTIVE EXPLORATION: Found high-quality parameters with limited sampling\n")

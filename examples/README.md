@@ -16,7 +16,7 @@ if (!require("tuneR")) devtools::install_github("omar391/tuneR")
 
 ### 1. Block sPLS-DA Grid Search (`block_splsda_grid_search.R`)
 
-**Addresses GitHub Issue #186: "Enhanced block method tuning"**
+**Addresses GitHub Issue [#186](https://github.com/mixOmicsTeam/mixOmics/issues/186): "Enhanced block method tuning"**
 
 This example demonstrates comprehensive parameter tuning for block.splsda models using grid search. It shows how to:
 - Set up multi-block data for classification
@@ -32,7 +32,7 @@ This example demonstrates comprehensive parameter tuning for block.splsda models
 
 ### 2. Block sPLS-DA Random Search (`block_splsda_random_search.R`)
 
-**Addresses GitHub Issue #141: "More efficient parameter exploration"**
+**Addresses GitHub Issue [#141](https://github.com/mixOmicsTeam/mixOmics/issues/141): "More efficient parameter exploration"**
 
 Random search is often more efficient than grid search, especially with high-dimensional parameter spaces. This example shows:
 - How random search can find good parameters faster
@@ -48,7 +48,7 @@ Random search is often more efficient than grid search, especially with high-dim
 
 ### 3. Performance Comparison Analysis (`performance_comparison.R`)
 
-**Addresses GitHub Issue #143: "Better performance metrics and visualization"**
+**Addresses GitHub Issue [#143](https://github.com/mixOmicsTeam/mixOmics/issues/143): "Better performance metrics and visualization"**
 
 This example demonstrates the advanced performance evaluation capabilities that go beyond simple classification accuracy:
 - Q2 score calculation and interpretation
@@ -118,9 +118,9 @@ After working through these examples, users will understand:
 
 | Issue | Problem | tuneR Solution | Example |
 |-------|---------|----------------|---------|
-| #186 | Limited block method tuning | Comprehensive block.splsda/spls tuning | Examples 1, 2, 4 |
-| #141 | Only grid search available | Random search implementation | Example 2 |
-| #143 | Basic performance metrics | Q2 scores and advanced metrics | Example 3, 5 |
+| [#186](https://github.com/mixOmicsTeam/mixOmics/issues/186) | Limited block method tuning | Comprehensive block.splsda/spls tuning | Examples 1, 2, 4 |
+| [#141](https://github.com/mixOmicsTeam/mixOmics/issues/141) | Only grid search available | Random search implementation | Example 2 |
+| [#143](https://github.com/mixOmicsTeam/mixOmics/issues/143) | Basic performance metrics | Q2 scores and advanced metrics | Example 3, 5 |
 
 ## Contributing
 

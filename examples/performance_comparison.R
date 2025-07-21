@@ -2,6 +2,7 @@
 #
 # This example demonstrates advanced performance evaluation capabilities
 # that address GitHub Issue #143: "Better performance metrics and visualization"
+# (https://github.com/mixOmicsTeam/mixOmics/issues/143)
 # 
 # Key features:
 # - Q2 score calculation and interpretation
@@ -9,7 +10,7 @@
 # - Statistical significance testing
 # - Advanced visualization techniques
 #
-# Author: tuneR package
+# Author: M Omar Faruque
 # Date: 2025-01-21
 
 # Load required libraries
@@ -102,6 +103,7 @@ cat(sprintf("   - miRNA keepX: %s\n", paste(test.keepX$mirnas, collapse = ", "))
 
 cat("\n3. Running tuning analysis on all datasets...\n")
 cat("   This demonstrates the advanced metrics that address GitHub issue #143\n")
+cat("   (https://github.com/mixOmicsTeam/mixOmics/issues/143)\n")
 
 results_list <- list()
 
@@ -429,7 +431,8 @@ cat("\n" %+% paste(rep("=", 80), collapse = "") %+% "\n")
 cat("CONCLUSION: Advanced Performance Analysis Success!\n")
 cat(paste(rep("=", 80), collapse = "") %+% "\n")
 
-cat("\nThis example demonstrated how tuneR addresses GitHub Issue #143 by providing:\n\n")
+cat("\nThis example demonstrated how tuneR addresses GitHub Issue #143 by providing:\n")
+cat("(https://github.com/mixOmicsTeam/mixOmics/issues/143)\n\n")
 
 cat("📊 COMPREHENSIVE METRICS: Q2 scores alongside traditional error rates\n")
 cat("🔬 STATISTICAL RIGOR: Significance testing of parameter improvements\n")

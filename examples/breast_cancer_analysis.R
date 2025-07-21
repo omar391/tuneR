@@ -4,7 +4,7 @@
 # to demonstrate tuneR's capabilities in a biological context.
 # Shows publication-ready analysis with biological interpretation.
 #
-# Author: tuneR package  
+# Author: M Omar Faruque  
 # Date: 2025-01-21
 
 # Load required libraries

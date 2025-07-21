@@ -106,6 +106,42 @@ cat("Grid search:   ", max(result_grid$results_matrix$Q2_mean))
 cat("Random search: ", max(result_random$results_matrix$Q2_mean))
 ```
 
+### Using Make for Easy Development
+
+tuneR includes a comprehensive `Makefile` that streamlines package development, testing, and running examples:
+
+```bash
+# Get started quickly
+make quickstart       # Install dependencies and run demo
+
+# Package development
+make install          # Install package and dependencies
+make test            # Run all tests
+make check           # Run R CMD CHECK
+make build           # Build package tarball
+
+# Run examples (addressing specific GitHub issues)
+make examples        # Run all examples
+make example1        # Grid search example (mixOmics issue #186)
+make example2        # Random search example (mixOmics issue #141) 
+make example3        # Performance comparison (mixOmics issue #143)
+make example4        # Breast cancer analysis
+make demo            # Quick demo (grid search only)
+
+# Utilities
+make clean           # Clean generated files
+make help            # Show all available targets
+make info            # Show system and R environment info
+```
+
+**Quick Demo**: Get tuneR running in seconds:
+```bash
+git clone https://github.com/omar391/tuneR.git
+cd tuneR
+make quickstart
+```
+This will install dependencies, run the grid search example, and generate visualizations in `examples/plots/`.
+
 ## 📖 Comprehensive Example
 
 Here's a complete workflow demonstrating advanced tuneR capabilities:
@@ -379,6 +415,19 @@ The package includes comprehensive examples demonstrating real-world application
 
 ### Using Included Examples
 
+**Recommended: Using Make (easier and handles dependencies)**
+```bash
+# Run all examples
+make examples
+
+# Or run individual examples
+make example1    # Grid search demo
+make example2    # Random search efficiency  
+make example3    # Performance comparison
+make example4    # Breast cancer analysis
+```
+
+**Alternative: From R console (after installing package)**
 ```r
 # Run comprehensive examples
 source(system.file("examples", "block_splsda_grid_search.R", package = "tuneR"))
@@ -390,17 +439,17 @@ source(system.file("examples", "breast_cancer_analysis.R", package = "tuneR"))
 ### Available Examples
 
 1. **Grid Search Demo** (`examples/block_splsda_grid_search.R`)
-   - Systematic parameter exploration addressing GitHub Issue #186
+   - Systematic parameter exploration addressing [mixOmics Issue #186](https://github.com/mixOmicsTeam/mixOmics/issues/186)
    - Comprehensive performance analysis with Q2 scores
    - Parameter landscape visualization and biological interpretation
 
 2. **Random Search Efficiency** (`examples/block_splsda_random_search.R`)  
-   - Efficient parameter space exploration addressing GitHub Issue #141
+   - Efficient parameter space exploration addressing [mixOmics Issue #141](https://github.com/mixOmicsTeam/mixOmics/issues/141)
    - 38x computational speedup with comparable performance
    - Coverage analysis and optimization strategies
 
 3. **Performance Metrics Analysis** (`examples/performance_comparison.R`)
-   - Advanced metrics evaluation addressing GitHub Issue #143
+   - Advanced metrics evaluation addressing [mixOmics Issue #143](https://github.com/mixOmicsTeam/mixOmics/issues/143)
    - Q2 score interpretation and statistical significance testing
    - Multi-dataset comparison across signal strengths
 
@@ -411,7 +460,7 @@ source(system.file("examples", "breast_cancer_analysis.R", package = "tuneR"))
 
 Each example demonstrates solving specific GitHub issues raised by the mixOmics community.
 
-## � Troubleshooting & FAQ
+## Troubleshooting & FAQ
 
 ### Common Issues
 

@@ -2,8 +2,9 @@
 # 
 # This example demonstrates comprehensive parameter tuning for block.splsda models
 # using grid search. It addresses GitHub Issue #186: "Enhanced block method tuning"
+# (https://github.com/mixOmicsTeam/mixOmics/issues/186)
 # 
-# Author: tuneR package
+# Author: M Omar Faruque
 # Date: 2025-01-21
 
 # Load required libraries
@@ -91,6 +92,7 @@ cat(sprintf("  - Total combinations: %d\n",
 
 cat("\n3. Running grid search tuning...\n")
 cat("   This demonstrates the systematic approach that addresses GitHub issue #186\n")
+cat("   (https://github.com/mixOmicsTeam/mixOmics/issues/186)\n")
 
 start_time <- Sys.time()
 
@@ -271,7 +273,8 @@ cat("\n" %+% paste(rep("=", 80), collapse = "") %+% "\n")
 cat("CONCLUSION: Grid Search Success!\n")
 cat(paste(rep("=", 80), collapse = "") %+% "\n")
 
-cat("\nThis example demonstrated how tuneR addresses GitHub Issue #186 by providing:\n\n")
+cat("\nThis example demonstrated how tuneR addresses GitHub Issue #186 by providing:\n")
+cat("(https://github.com/mixOmicsTeam/mixOmics/issues/186)\n\n")
 
 cat("✅ COMPREHENSIVE TUNING: Systematic exploration of all parameter combinations\n")
 cat("✅ ADVANCED METRICS: Q2 scores alongside traditional error rates\n") 
