@@ -60,6 +60,7 @@ create_cv_folds <- function(Y, nfolds = 5, stratified = TRUE) {
     # Simple random assignment for regression or non-stratified
     indices <- sample(seq_along(Y))
     folds <- split(indices, cut(seq_along(indices), nfolds, labels = FALSE))
+    names(folds) <- NULL  # Remove names to match expected format
   }
   
   # Convert to simple list and ensure numeric indices
