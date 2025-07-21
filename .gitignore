@@ -1,0 +1,18 @@
+# Files to ignore on main branch (but keep in develop)
+.github/copilot-instructions.md
+.task/
+
+# Standard R ignores
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Output files
+*.html
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
