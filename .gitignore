@@ -16,3 +16,5 @@
 # System files
 .DS_Store
 Thumbs.db
+..Rcheck/
+.DS_Store

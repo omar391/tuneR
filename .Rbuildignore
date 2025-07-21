@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.git$
+^\.github$
+^\.task$
+^\.trunk$
+^\..*$
+^.*\.Rcheck$
+^.*\.tar\.gz$
